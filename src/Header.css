@@ -1,0 +1,108 @@
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f4f6f8;
+  margin-bottom: 15px;
+}
+.MuiSvgIcon-root {
+  color: #919eab;
+  margin-right: 15px;
+}
+
+.header__top__right {
+  display: flex;
+  align-items: center;
+  color: #637381;
+}
+
+.header__top__right > div {
+  margin-left: 20px;
+}
+.header__center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f4f6f8;
+}
+
+.header__center__logo {
+  width: 102px;
+  height: 44px;
+  background-color: #919eab;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.header__center__search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 380px;
+  height: 40px;
+  border: 1px solid #e6e9ed;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+.header__center__search__input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  color: #637381;
+}
+
+.header__center__search__input > input {
+  border: none;
+  color: #959ead;
+  outline: none;
+}
+
+.header__center__search__button {
+  background-color: #212b36;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 100%;
+  border-radius: 4px;
+  padding: 0 15px;
+}
+
+.header__center__search__button > .MuiSvgIcon-root {
+  margin: 0;
+}
+.header__center__infobar {
+  margin-bottom: 15px;
+}
+.header__center__infobar > .MuiSvgIcon-root {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+  border: 1px solid #f4f6f8;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 820px) {
+  .MuiSvgIcon-root {
+    margin-right: 2px;
+  }
+  .header__center__infobar > .MuiSvgIcon-root {
+    padding: 5px;
+  }
+  .header__top__right > div {
+    margin-left: 10px;
+  }
+  .header__top__left {
+    display: flex;
+  }
+  .ReactFlagsSelect-module_selectBtn__19wW7 {
+    font-size: 10px !important;
+  }
+  .header__center__logo {
+    height: 30px;
+  }
+  .header__center__search {
+    height: 30px;
+  }
+}
